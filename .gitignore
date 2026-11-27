@@ -1,0 +1,29 @@
+# Android / Gradle local state and generated output
+**/local.properties
+**/.gradle/
+**/.kotlin/
+**/build/
+**/.cxx/
+**/.idea/
+*.iml
+.cxx/
+.externalNativeBuild/
+captures/
+
+# Python local environments and generated files
+**/__pycache__/
+*.py[cod]
+**/.venv/
+**/venv/
+.env
+.env.*
+
+# macOS and editor artifacts
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+
+# Local diagnostics / logs
+autocore_crash.txt
+*.log
