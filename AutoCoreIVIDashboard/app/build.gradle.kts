@@ -69,7 +69,7 @@ dependencies {
 
     // android.car.jar is an optional platform SDK artifact; resolve it from the active SDK.
     compileOnly(
-        fileTree("${android.sdkDirectory}/platforms") {
+        fileTree(androidComponents.sdkComponents.sdkDirectory.get().asFile.resolve("platforms")) {
             include("android-37*/optional/android.car.jar")
         }
     )
